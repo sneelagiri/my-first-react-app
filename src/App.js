@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <main>
-        <Title />
+        <Title content="Hello World!" />
       </main>
       <p>
         <img src={logo} className="App-logo" alt="logo" />
@@ -17,11 +17,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Hello World!
+          <br></br>
           Welcome to Codaisseur.
         </a>
         <br></br>
-        I feel very positive about JavaScript and React. I think that they can be used efficiently to solve real-world problems, which businesses across the world face. 
+        I feel very positive about JavaScript and React. I think that they can be used efficiently to solve real-world problems; which businesses across the world face. 
       </p>
     </div>
   );
